@@ -51,7 +51,7 @@ function EntryForm(props) {
         error={props.errors.temp}
       />
 
-      <input type="submit" value="Calculate" className="btn btn-primary" />
+      <input type="submit" value="Calculate" className="btn" />
     </form>
   );
 }
